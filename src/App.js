@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { test } from './starter';
 import './App.css';
 
 let nextId = 1;
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <div className="app">
+      <h1>{test}</h1>
       <main className="todo-panel">
         <h1 className="todo-title">To-do</h1>
 
